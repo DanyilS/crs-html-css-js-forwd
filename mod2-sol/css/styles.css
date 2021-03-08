@@ -1,0 +1,73 @@
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+        width: 33.33%;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6, .col-md-12 {
+        float: left;
+        padding: 10px;
+    }
+    .col-md-6{
+        width: 50%;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+        padding: 10px;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Lohit Gujarati", sans-serif;
+}
+
+h3 {
+    margin: 0;
+    position: absolute;
+    right: 0;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    padding: 0 20px;
+    font-size: 1.25em;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.75em;
+}
+
+.card {
+    background: #989898;
+    border: 2px solid;
+}
+
+.card-title {
+    position: relative;
+}
+
+.card-text {
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.bg-pink {
+    background: #df9195;
+}
+.bg-red {
+    background: #cf2637;
+}
+.bg-yellow {
+    background: #e4d894;
+}
